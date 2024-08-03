@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #008b8b; /* Dark Cyan */
+  }
+  
+  .text-dark-cyan {
+    color: #008b8b;
+  }
+  
+  .bg-dark-cyan {
+    background-color: #008b8b;
+  }
