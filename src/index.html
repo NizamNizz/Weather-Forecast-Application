@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast Application</title>
+  <script src="index.js" defer></script>>
+  <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-dark-cyan text-white">
+  <div class="container mx-auto p-4">
+    <header class="mb-4">
+      <h1 class="text-3xl font-bold text-center">Weather Forecast</h1>
+    </header>
+    <main class="flex flex-col items-center">
+      <div class="w-full max-w-md">
+        <div class="mb-4">
+          <input type="text" id="city-input" class="w-full p-2 border border-gray-300 rounded text-gray-900" placeholder="Enter city name">
+          <button id="search-btn" class="w-full mt-2 p-2 bg-white text-dark-cyan rounded hover:bg-gray-200">Search</button>
+          <button id="current-location-btn" class="w-full mt-2 p-2 bg-white text-dark-cyan rounded hover:bg-gray-200">Use Current Location</button>
+        </div>
+        <div id="recent-cities-dropdown" class="mb-4 hidden">
+          <select id="recent-cities" class="w-full p-2 border border-gray-300 rounded text-gray-900"></select>
+        </div>
+        <div id="weather-info" class="p-4 bg-white text-dark-cyan rounded shadow-md"></div>
+        <div id="extended-forecast" class="mt-4 p-4 bg-white text-dark-cyan rounded shadow-md"></div>
+      </div>
+    </main>
+  </div>
+  
+</body>
+</html>
